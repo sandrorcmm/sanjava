@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-export default function App() {
+export default function SingnIn() {
     return(
         <View>
-            <Text></Text>
+            <Text>Teste do aplicabomba</Text>
         </View>
     )
 }

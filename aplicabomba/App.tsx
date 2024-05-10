@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { SingIn } from './src/screen/singin';
+import { SingnIn } from './src/screen/index';
 
-export default function App() {
+export  default function App() {
     return(
-        <SingIn />
-    )
+        <SingnIn />
+    );
 }

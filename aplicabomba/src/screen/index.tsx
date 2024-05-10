@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { styles } from './styles';
 
-export default function SingnIn() {
+export function SingnIn() {
     return(
-        <View>
-            <Text>Teste do aplicabomba</Text>
+        <View style={styles.container}>
+            <Text>APLICABOMBA</Text>
         </View>
     )
 }

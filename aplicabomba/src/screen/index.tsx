@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
-import { View, Text,TextInput } from 'react-native';
+import { View, Text,Image } from 'react-native';
 import { styles } from './styles';
+import IllustrationImg from '../../assets/illustration.png';
+
 
 
 export function SingnIn() {
@@ -9,14 +11,12 @@ export function SingnIn() {
 
     return(
         <View style={styles.container}>
-            <Text>A vida é um eterno oscilar entre a ânsia de ter e o tédio de possuir</Text>
+            
 
 
-            <TextInput style={styles.input} onChangeText={setText} />
+           <Image source={IllustrationImg}/>
 
-            <Text>
-                Você digitou: {text}
-            </Text>
+            
         </View>
     )
 }
